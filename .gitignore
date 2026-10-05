@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+
+# Real pharmacy exports: catalogue, stock levels, supplier discounts, balances.
+# Nothing from here belongs in git.
+data/private/

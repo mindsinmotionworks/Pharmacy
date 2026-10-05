@@ -1,0 +1,20 @@
+{
+  "name": "pharmacy-order-optimizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Matches supplier offers to a pharmacy's catalogue and builds the cheapest split order.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
